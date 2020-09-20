@@ -1,5 +1,16 @@
-import React from "react"
 
-export default function Home() {
-  return <div>Hello world!</div>
+import React from 'react';
+import Layout from '../components/Layout';
+
+export default (props) => {
+  return (
+    <Layout>
+     <h1> 
+        Hola Mundo!
+     </h1>
+     <footer>
+        Hecho en cuautitlan con ❤❤❤
+     </footer>
+    </Layout>
+  )
 }
